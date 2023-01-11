@@ -6,6 +6,7 @@ import {
   CardMedia,
   Button,
   Typography,
+  CardContent,
 } from "@material-ui/core";
 import ThumbUpIcon from "@material-ui/icons/ThumbUpAlt";
 import DeleteIcon from "@material-ui/icons/Delete";
@@ -16,7 +17,7 @@ import moment from "moment";
 const Post = ({ post }) => {
   // const posts = useSelector((state) => state.posts);
   const classes = useStyles();
-  // console.log(posts);
+
   return (
     <Card className={classes.card}>
       <CardMedia
@@ -31,8 +32,31 @@ const Post = ({ post }) => {
         </Typography>
       </div>
       <div className={classes.overlay2}>
-        <Button style={{ color: "white" }}></Button>
+        <Button style={{ color: "white" }} size="small" onClick={() => {}}>
+          <MoreHorizIcon fontSize="medium" />
+        </Button>
       </div>
+      <div className={classes.details}>
+        <Typography variant="body2" color="textSecondary">
+          {post.tags.map((tag) => `#${tag} `)}
+        </Typography>
+      </div>
+      <CardContent>
+        <Typography className={classes.title} variant="h5" gutterBottom>
+          {post.message}
+        </Typography>
+      </CardContent>
+      <CardActions className={classes.cardActions}>
+        <Button size="small" color="primary" onClick={() => {}}>
+          <ThumbUpIcon fontSize="small" />
+          Like
+          {post.likeCount}
+        </Button>
+        <Button size="small" color="primary" onClick={() => {}}>
+          <DeleteIcon fontSize="small" />
+          Delete
+        </Button>
+      </CardActions>
     </Card>
   );
 };
