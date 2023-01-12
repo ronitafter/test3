@@ -1,6 +1,13 @@
 body{
-background-color: #D0E5FF;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%239bcbf2' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23000186' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2386b7e4' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%230d0f80' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2372a4d6' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23181979' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%236090c7' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23202071' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%234e7db9' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23262669' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%233e6aaa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%232c2b61' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+/* background-color: #99c0ef; */
+background-color: #f4f9ff;
+	/* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%239bcbf2' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23000186' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2386b7e4' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%230d0f80' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2372a4d6' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23181979' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%236090c7' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23202071' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%234e7db9' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23262669' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%233e6aaa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%232c2b61' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: cover; */
+}
+
+.MuiTypography-h2{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important
+		/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important */
+
 }
