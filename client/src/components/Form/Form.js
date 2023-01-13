@@ -32,6 +32,7 @@ const Form = ({ currentId, setCurrentId }) => {
     } else {
       dispatch(createPost(postData));
     }
+    clear();
   };
 
   const clear = () => {
@@ -53,7 +54,7 @@ const Form = ({ currentId, setCurrentId }) => {
         className={`${classes.root} ${classes.form}`}
         onSubmit={handleSubmit}
       >
-        <Typography variant="h6" color="primary">
+        <Typography variant="h6" color="inherit">
           {currentId ? "Editing" : "Creating"} a Memo
         </Typography>
 
@@ -108,7 +109,7 @@ const Form = ({ currentId, setCurrentId }) => {
         <Button
           className={classes.buttonSubmit}
           variant="contained"
-          color="primary"
+          color="inherit"
           size="large"
           type="submit"
           fullWidth
@@ -118,7 +119,7 @@ const Form = ({ currentId, setCurrentId }) => {
 
         <Button
           variant="contained"
-          color="primary"
+          color="inherit"
           size="small"
           onClick={clear}
           fullWidth

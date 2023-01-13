@@ -9,14 +9,17 @@ export default makeStyles((theme) => ({
   },
   paper: {
     padding: theme.spacing(2),
-    // backgroundColor: "#e6f0fb",
-    backgroundColor: "#b2d1f7",
+    backgroundColor: "#F5F5F5",
+    color: "#A862CB",
+    // backgroundColor: "#b2d1f7",
+    // backgroundColor: "white",
   },
   form: {
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "center",
-    backgroundColor: "#b2d1f7",
+    // backgroundColor: "#b2d1f7",
+    backgroundColor: "F5F5F5",
   },
   fileInput: {
     width: "97%",
@@ -24,6 +27,7 @@ export default makeStyles((theme) => ({
   },
   buttonSubmit: {
     marginBottom: 10,
-    backgroundColor: "#6b96c9",
+    backgroundColor: "#A862CB",
+    color: "white",
   },
 }));
