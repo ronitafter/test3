@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
-import { createStore, applyMiddleware, compose } from "redux";
+import { applyMiddleware, compose } from "redux";
+import { legacy_createStore as createStore } from "redux";
 // import configureStore from "@reduxjs/toolkit";
 // configureStore => createStore
 import thunk from "redux-thunk";
